@@ -1,0 +1,22 @@
+{
+  "name": "rocktq",
+  "version": "1.0.0",
+  "description": "Projeto para desenvolvido para gerenciar perguntas anonimas de usúarios direcionada ao dono página",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon .",
+    "init-db": "node src/db/init.js"
+  },
+  "keywords": [],
+  "author": "Cassiana Caires",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.7",
+    "express": "^4.17.3",
+    "sqlite": "^4.1.1",
+    "sqlite3": "^5.0.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
